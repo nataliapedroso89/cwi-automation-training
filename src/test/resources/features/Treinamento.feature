@@ -2,6 +2,7 @@
 #encoding: iso-8859-1
 Funcionalidade: Compra
 
+<<<<<<< HEAD
   @treinamento
   Cenario: Adicionar produto ao carrinho
     Dado que estou na homepage do site "http://automationpractice.com"
@@ -26,3 +27,11 @@ Funcionalidade: Compra
 ##    E preencho os "campos obrigatorios"
 ##    Quando clico no botao "Register"
 ##    Entao deve apresentar a tela de "MY ACCOUNT"
+=======
+	@treinamento
+  Cenario: Adicionar produto ao carrinho
+    Dado que estou na homepage do site "http://automationpractice.com"
+    E pesquiso pelo produto "Dress"
+    #Quando clico no botão "Add to cart"
+    #Entao deve apresentar a mensagem "Product successfully added to your shopping cart"
+>>>>>>> branch 'master' of https://github.com/nataliapedroso89/cwi-automation-training.git

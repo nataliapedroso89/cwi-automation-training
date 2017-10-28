@@ -8,7 +8,11 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
+<<<<<<< HEAD
 @CucumberOptions(features = "classpath:features", tags = "@treinamentoCadastro",
+=======
+@CucumberOptions(features = "classpath:features", tags = "@treinamento",
+>>>>>>> branch 'master' of https://github.com/nataliapedroso89/cwi-automation-training.git
 	  glue = {""}, monochrome = true, dryRun = false)
 public class TreinamentoTest {
 
